@@ -9,7 +9,7 @@ import javazoom.jl.player.advanced.AdvancedPlayer;
 
 public class Song {
 	private int duration;
-	private String songAddress;
+	String songAddress;
 	private AdvancedPlayer mp3Player;
 	private InputStream songStream;
 
